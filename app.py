@@ -15,9 +15,9 @@ import pandas as pd
 import streamlit as st
 
 ROOT = os.path.dirname(os.path.abspath(__file__))
-MOD = os.path.join(ROOT, 'models')
+MOD = ROOT
 RES = os.path.join(ROOT, 'results')
-ASSETS = os.path.join(ROOT, 'assets')
+ASSETS = ROOT
 BEAM_IMG = os.path.join(ASSETS, 'beam_opening.png')
 
 st.set_page_config(
