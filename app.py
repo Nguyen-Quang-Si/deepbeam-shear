@@ -349,7 +349,7 @@ with tab_single:
         return 'background-color: #eafaf1; color: #145a32;'
 
     st.dataframe(
-        df_diag.style.applymap(highlight_status, subset=['Status']),
+        df_diag.style.map(highlight_status, subset=['Status']),
         use_container_width=True,
         hide_index=True
     )
